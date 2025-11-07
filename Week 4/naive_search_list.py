@@ -14,8 +14,8 @@ l = [1,2,3,4,5,6,7,8,9,10]
 
 
 import random
-l = [1,3,456,789,567172,2345,6789,8901,23456,34567]
-a = 567172
+l = [1,3,456,789,2345,6789,8901,23456,34567]
+a = 567172      
 #for i in range(100):
     #l.append(random.randint(1,365))
 flag =0
@@ -26,3 +26,6 @@ for i in range(len(l)):
         break
 if flag == 0:
     print("Element not found")
+
+
+
